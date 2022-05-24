@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-green{
+    width: 30px;
+    height: 30px;
+    background: green;
+    border: 2px solid #2D0627;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 11;
+}
+
+.box-blue{
+    width: 100px;
+    height: 800px;
+    border: 2px solid #1D1A86;
+    background: blue;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    z-index: 12;
+}
